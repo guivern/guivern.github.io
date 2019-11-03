@@ -1,0 +1,31 @@
+// Styling for page sections
+.page-section {
+  padding: 6rem 0;
+  .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @include media-breakpoint-up(lg) {
+    .page-section-heading {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+// header {
+//   background: url(https://res.cloudinary.com/dkxt0wgfy/image/upload/v1572724640/portfolio/markus-spiske-iHeX3jWkv9s-unsplash_vzwk4c.jpg);
+//   // background-color: white;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+// }
+
+#avatar {
+  border-radius: 50%;
+}
